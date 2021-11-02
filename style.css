@@ -1,3 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    background-image: linear-gradient(120deg,#e2c35d,#d88771);
+    color:white;
     font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    border: none;
+    font-size: 2rem;
+    background-color: white;
+}
+
+form button {
+    color:#d88771;
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d88771;
+    color: white;
 }
